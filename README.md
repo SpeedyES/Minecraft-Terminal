@@ -1,2 +1,2 @@
 # Minecraft-Terminal
-Minecraft in C++ on terminal
+Minecraft entirely written in C++ and cmd!
