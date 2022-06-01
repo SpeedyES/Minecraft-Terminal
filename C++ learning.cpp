@@ -54,9 +54,9 @@ int main()
 	system("nul > lol.txt");
 	file.open("lol.txt", ios::in);
 
-	if (file.good() == false) //sprawdz czy program ma dostep do pliku
+	if (file.good() == false) //check if program has enough permissions
 	{
-		cout << "Plik nie istnieje lub program ma brakujace uprawnienia";
+		cout << "File doesn't exist or does not have enough permissions";
 		exit(0);
 	}
 	cout << "main" << endl;
